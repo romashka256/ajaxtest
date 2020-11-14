@@ -20,6 +20,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="6dp"
         android:text="TextView"
         app:layout_constraintEnd_toStartOf="@+id/item_contact_delete"
         app:layout_constraintStart_toEndOf="@+id/item_contact_iv"
@@ -30,6 +31,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:layout_marginBottom="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/item_contact_name"
         app:layout_constraintStart_toStartOf="@+id/item_contact_name" />

@@ -95,6 +95,8 @@ class ContactsViewModel @Inject constructor(
         }
     }
 
+
+
     fun handleContactsError(throwable: Throwable) {
         contactsState.value = Result.Error(createDataSourceError(throwable))
     }
